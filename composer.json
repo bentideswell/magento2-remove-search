@@ -1,0 +1,26 @@
+{
+    "name": "fishpig/magento2-remove-search",
+    "description": "",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FishPig\\RemoveSearch\\": ""
+        }
+    },
+    "replace": {
+        "magento/module-elasticsearch": "*",
+        "magento/module-elasticsearch-7": "*",
+        "magento/module-inventory-elasticsearch": "*",
+        "magento/module-open-search": "*",
+        "magento/module-advanced-search": "*",
+        "magento/module-catalog-search": "*",
+        "magento/module-inventory-catalog-search": "*",
+        "magento/module-inventory-catalog-search-bundle-product": "*",
+        "magento/module-inventory-catalog-search-configurable-product": "*",
+        "magento/module-search": "*"
+    }
+}
