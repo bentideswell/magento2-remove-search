@@ -1,13 +1,14 @@
 {
     "name": "fishpig/magento2-remove-search",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "magento2-module",
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "FishPig\\RemoveSearch\\": ""
+            "FishPig\\RemoveSearch\\": "",
+            "Magento\\CatalogGraphQl\\Plugin\\Search\\Request\\ConfigReader": "Mock/Magento/CatalogGraphQl/Plugin/Search/Request/ConfigReader"
         }
     },
     "replace": {
