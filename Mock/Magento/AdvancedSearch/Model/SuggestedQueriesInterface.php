@@ -5,6 +5,8 @@
  */
 namespace Magento\AdvancedSearch\Model;
 
+use Magento\Search\Model\QueryInterface;
+
 /**
  * @api
  * @since 100.0.2
@@ -28,9 +30,10 @@ interface SuggestedQueriesInterface
     /**#@-*/
 
     /**
-     *
+     * @param QueryInterface $query
+     * @return \Magento\Search\Model\QueryResult[]
      */
-    public function getItems($query);
+    public function getItems(QueryInterface $query);
 
     /**
      * @return bool
