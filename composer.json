@@ -1,6 +1,6 @@
 {
     "name": "fishpig/magento2-remove-search",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "type": "magento2-module",
     "autoload": {
         "files": [
